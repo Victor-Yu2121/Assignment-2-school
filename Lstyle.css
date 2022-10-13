@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body, html{ 
+    background-image: url("./assets/bg1.jpg") ;
+    background-position: center;
+    background-size:cover;
+    height: 250vh;
+} 
+
+h1 {
+    margin:9vw;
+    color: #fcfcfc;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Goudy Old Style';
+    text-decoration: underline;
+}
+
+h2{   
+    text-align:center;
+    margin-top:90px;
+    margin-bottom:60px;
+    color: #fcfcfc;
+    font-size: 90px;
+    font-family: 'Goudy Old Style';
+
+}
+
+p{
+    color: #fcfcfc;
+    font-size: 3vw;
+    font-family: 'Goudy Old Style';
+}
+
+ul{
+    list-style-position: inside;
+    color: #fcfcfc;
+    font-size:3vw;
+    font-family: 'Goudy Old Style';
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+td {
+    text-align: center;
+}
+  
+.images {
+    width: 350px;
+    height: 450px;
+}

@@ -1,0 +1,75 @@
+body, html {
+    background-image: url("./assets/bg1.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+  
+h1 {
+    color: #fcfcfc;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Goudy Old Style';
+    animation: fadein ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forward;
+}
+  
+h2 {
+    position:relative;
+    bottom:60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Goudy Old Style';
+    animation: fadein ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forward;
+}
+h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+  
+.images {
+    width: 350px;
+    height: 450px;
+}
+  
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+td {
+    text-align: center;
+}
+
+.button{
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+img:hover:not(.active){
+    opacity:0.5;
+    transition: all 0.5;
+}
+
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
